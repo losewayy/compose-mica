@@ -1,0 +1,8 @@
+compose-mica
+Copyright 2026 compose-mica contributors
+
+The `:glass` module's recipes, effect ordering, and press-deformation
+interaction follow the documented API and tutorials of the backdrop library
+by Kyant (https://github.com/Kyant0/backdrop,
+https://kyant.gitbook.io/backdrop), licensed under the Apache License 2.0.
+This project depends on that library; it does not vendor its sources.

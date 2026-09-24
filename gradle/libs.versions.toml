@@ -1,0 +1,19 @@
+[versions]
+kotlin = "2.4.10"
+compose = "1.12.0"
+coroutines = "1.10.2"
+backdrop = "2.0.1"
+shapes = "1.2.1"
+vanniktech = "0.37.0"
+
+[libraries]
+kotlinx-coroutines-core = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-core", version.ref = "coroutines" }
+kotlinx-coroutines-swing = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-swing", version.ref = "coroutines" }
+backdrop-desktop = { module = "io.github.kyant0:backdrop-desktop", version.ref = "backdrop" }
+shapes-desktop = { module = "io.github.kyant0:shapes-desktop", version.ref = "shapes" }
+
+[plugins]
+kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
+kotlin-compose = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }
+compose = { id = "org.jetbrains.compose", version.ref = "compose" }
+vanniktech-maven-publish = { id = "com.vanniktech.maven.publish", version.ref = "vanniktech" }
