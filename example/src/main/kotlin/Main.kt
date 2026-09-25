@@ -64,8 +64,8 @@ private fun BackdropScene(modifier: Modifier = Modifier) {
                 surface = surface,
                 windowX = if (pos.isSpecified) pos.x.value else 0f,
                 windowY = if (pos.isSpecified) pos.y.value else 0f,
-                blurDp = 30f,
-                veilAlpha = 0.35f,
+                blurDp = 18f,
+                veilAlpha = 0.22f,
             )
         } else {
             // Non-Windows / no wallpaper: ambient drifting gradient.

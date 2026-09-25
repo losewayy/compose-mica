@@ -9,6 +9,8 @@ theming and a recipe layer for liquid-glass surfaces.
 No native code, no window-system hooks — everything is drawn inside Compose,
 so it runs anywhere Skia does.
 
+![Demo: wallpaper-derived backdrop, dragging a refractive liquid-glass card](docs/demo.gif)
+
 ## What's inside
 
 | Module | Contents |
